@@ -1,20 +1,20 @@
-addElement("Brainrot", {
+AddElement("Brainrot", {
     color: "#28d232",
     state: "liquid",
     behavior: "liquid",
     category: "Special",
     colorBG: "#F5E100",
     weight: 1
-});
+})
 
-addElement("IceMangos", {
+AddElement("IceMangos", {
     color: "#9fc6f2",
     state: "solid",
     behavior: "solid",
     weight: 5
-});
+})
 
-addElement("Mangos", {
+AddElement("Mangos", {
     color: "#eaa95f",
     category: "Food",
     state: "solid",
@@ -27,4 +27,4 @@ addElement("Mangos", {
     reactions: {
         "Brainrot": { "elem2": "Mustard", "chance": 100 }
     }
-});
+})
