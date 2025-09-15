@@ -5,13 +5,13 @@ elements.brainrot = {
   state: "liquid",
   density: 1,
 }
+
 elements.IceMangos = {
     color: "#9fc6f2",
     state: "solid",
     behavior: behaviors.SOLID,
     weight: 5
 }
-
 
 elements.mangos = {
     color: ["#eaa95f"],
