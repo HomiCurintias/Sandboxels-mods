@@ -4,14 +4,14 @@ elements.brainrot = {
   category: "special",
   state: "liquid",
   density: 1,
-}
+};
 
-elements.IceMangos = {
+elements.iceMangos = {
     color: "#9fc6f2",
     state: "solid",
     behavior: behaviors.SOLID,
-    weight: 5
-}
+    weight: 5,
+};
 
 elements.mangos = {
     color: ["#eaa95f"],
@@ -25,5 +25,5 @@ elements.mangos = {
     weight: 3,
     reactions: {
     "Brainrot": {"elem2": "Mustard", "chance": 100}
-    }
-}
+    },
+};
