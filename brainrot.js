@@ -5,12 +5,10 @@ elements.Mustard = {
   state: "liquid",
   tempLow: -10,
   stateLow: "solid",
-  tempHigh: 0,
-  stateHigh: "liquid",
   weight: 1,
   movable: true,
   temp: 20,
-};
+}
 
 elements.Brainrot = {
   color: ["#28d232"],
@@ -44,7 +42,8 @@ elements.Mangos = {
   temp: 20,
   weight: 3,
   reactions: {
-    "Brainrot": { elem2: "Mustard", chance: 100 }
+    "Brainrot": { elem2: "Mustard", chance: 100 },
+    "Brainrot": { elem2: "empty", chance: 100 }
   },
   movable: true,
 };
