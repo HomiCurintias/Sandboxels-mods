@@ -1,5 +1,5 @@
 elements.Brainrot = {
-  color: ["#28d232"],
+  color: "#28d232",
   behavior: behaviors.LIQUID,
   category: "special",
   state: "liquid",
@@ -9,7 +9,7 @@ elements.Brainrot = {
 };
 
 elements.IceMangos = {
-  color: ["#9fc6f2"],
+  color: "#9fc6f2",
   state: "solid",
   behavior: behaviors.SOLID,
   weight: 5,
@@ -20,17 +20,14 @@ elements.IceMangos = {
 };
 
 elements.Mangos = {
-  color: ["#eaa95f"],
+  color: "#eaa95f",
   category: "food",
   state: "solid",
   behavior: behaviors.SOLID,
   tempLow: -10,
   stateLow: "IceMangos",
-  colorBG: ["#F5E100"],
+  colorBG: "#F5E100",
   temp: 20,
   weight: 3,
-  reactions: {
-    "Brainrot": { elem2: "Mustard", chance: 100 }
-  },
   movable: true,
 };
