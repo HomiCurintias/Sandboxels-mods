@@ -50,6 +50,20 @@ elements.Mangos = {
   stateHigh: "ash",
 };
 
+elements.Boobbie = {
+  color: ["#ff008cff"],
+  state: "solid",
+  behavior: behaviors.POWDER,
+  tempLow: -70,
+  stateLow: "ice",
+  colorBG: ["#ff00c8ff"],
+  temp: 20,
+  weight: 3,
+  movable: true,
+  tempHigh: 75,
+  stateHigh: "ash",
+};
+
 elements.Mangos.reactions = {
     "Brainrot": { elem2: "Mustard", chance: 100 }
 };
