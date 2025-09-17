@@ -1,7 +1,7 @@
 elements.Mustard = {
   color: ["#FFD000"],
   behavior: behaviors.LIQUID,
-  category: "Mod",
+  category: "food",
   state: "liquid",
   tempLow: -10,
   tempHigh: 100,
@@ -15,7 +15,7 @@ elements.Mustard = {
 elements.Brainrot = {
   color: ["#28d232"],
   behavior: behaviors.LIQUID,
-  category: "Mod",
+  category: "special",
   state: "liquid",
   density: 1,
   movable: true,
@@ -37,7 +37,7 @@ elements.IceMangos = {
 
 elements.Mangos = {
   color: ["#eaa95f"],
-  category: "Mod",
+  category: "food",
   state: "solid",
   behavior: behaviors.POWDER,
   tempLow: -10,
@@ -50,20 +50,19 @@ elements.Mangos = {
   stateHigh: "ash",
 };
 
-elements.Bobbie = {
-  color: ["#ff00f2ff"],
-  category: "weapons",
+elements.Boobbie = {
+  color: ["#ff008cff"],
   state: "solid",
   behavior: behaviors.POWDER,
-  colorBG: ["#ff00d4ff"],
+  tempLow: -70,
+  stateLow: "ice",
+  colorBG: ["#ff00c8ff"],
   temp: 20,
   weight: 3,
   movable: true,
-  tempHigh: 60,
+  tempHigh: 75,
   stateHigh: "ash",
-  tempLow: -30,
-  stateLow: "ice",
-}
+};
 
 elements.Mangos.reactions = {
     "Brainrot": { elem2: "Mustard", chance: 100 }
