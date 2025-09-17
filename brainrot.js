@@ -1,13 +1,3 @@
-elements.Mustardice = {
-  color: ["#cbf3a6ff"],
-  behavior: behaviors.POWDER,
-  state: "solid",
-  weight: 3,
-  tempHigh: 10,
-  temp: -20,
-  movable: true,
-};
-
 elements.Mustard = {
   color: ["#FFD000"],
   behavior: behaviors.LIQUID,
@@ -16,7 +6,6 @@ elements.Mustard = {
   tempLow: -10,
   tempHigh: 100,
   stateHigh: "oxygen",
-  stateLow: "Mustardice",
   weight: 1,
   movable: true,
   temp: 20,
