@@ -1,7 +1,3 @@
-if (!categories.Mod) {
-    categories.Mod = [];
-}
-
 elements.Mustard = {
   color: ["#FFD000"],
   behavior: behaviors.LIQUID,
