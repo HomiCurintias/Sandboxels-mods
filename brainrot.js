@@ -62,7 +62,7 @@ elements.Mangos = {
   movable: true,
   tempHigh: 75,
   stateHigh: "ash",
-  reactions = {
+  reactions: {
     "Brainrot": { elem2: "Mustard", chance: 100 }
   },
 };
