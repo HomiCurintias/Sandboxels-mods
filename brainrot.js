@@ -55,6 +55,7 @@ elements.Boobbie = {
   state: "solid",
   behavior: behaviors.POWDER,
   tempLow: -70,
+  category: "special",
   stateLow: "ice",
   colorBG: ["#ff00c8ff"],
   temp: 20,
