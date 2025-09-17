@@ -5,7 +5,6 @@ elements.Mustardice = {
   weight: 3,
   tempHigh: 10,
   temp: -20,
-  stateHigh: "Mustard",
   movable: true,
 };
 
