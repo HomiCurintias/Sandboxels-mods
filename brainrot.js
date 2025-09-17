@@ -50,7 +50,7 @@ elements.Mangos = {
   stateHigh: "ash",
 };
 
-elements.BobbieGoddies = {
+elements.Bobbie = {
   color: ["#ff00f2ff"],
   category: "weapons",
   state: "solid",
