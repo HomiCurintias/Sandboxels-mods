@@ -50,21 +50,6 @@ elements.Mangos = {
   stateHigh: "ash",
 };
 
-elements.Labubu = {
-  color: ["#ff008cff"],
-  state: "solid",
-  behavior: behaviors.POWDER,
-  tempLow: -70,
-  category: "life",
-  stateLow: "ice",
-  colorBG: ["#ff00c8ff"],
-  temp: 20,
-  weight: 3,
-  movable: true,
-  tempHigh: 100,
-  stateHigh: "ash",
-};
-
 elements.Mangos.reactions = {
     "Brainrot": { elem2: "Mustard", chance: 100 }
 };
