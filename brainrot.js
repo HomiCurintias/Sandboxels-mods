@@ -4,6 +4,7 @@ elements.Mustard = {
   category: "food",
   state: "liquid",
   weight: 1,
+  density: 1,
   movable: true,
   temp: 20,
 }
@@ -13,7 +14,8 @@ elements.Brainrot = {
   behavior: behaviors.LIQUID,
   category: "special",
   state: "liquid",
-  density: 1,
+  density: 5,
+  weight: 5,
   movable: true,
   temp: 20,
 };
