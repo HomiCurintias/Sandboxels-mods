@@ -50,18 +50,18 @@ elements.Mangos = {
   stateHigh: "ash",
 };
 
-elements.Boobbie = {
+elements.Labubu = {
   color: ["#ff008cff"],
   state: "solid",
   behavior: behaviors.POWDER,
   tempLow: -70,
-  category: "special",
+  category: "life",
   stateLow: "ice",
   colorBG: ["#ff00c8ff"],
   temp: 20,
   weight: 3,
   movable: true,
-  tempHigh: 75,
+  tempHigh: 100,
   stateHigh: "ash",
 };
 
