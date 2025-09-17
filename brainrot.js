@@ -1,14 +1,3 @@
-elements.MustardIce = {
-  color: ["#cbf3a6ff"],
-  behavior: behaviors.POWDER,
-  state: "solid",
-  weight: 3,
-  tempHigh: 10,
-  temp: -20,
-  stateHigh: "Mustard",
-  movable: true,
-}
-
 elements.Mustard = {
   color: ["#FFD000"],
   behavior: behaviors.LIQUID,
