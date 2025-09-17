@@ -1,4 +1,4 @@
-elements.Mustardice = {
+elements.MustardIce = {
   color: ["#cbf3a6ff"],
   behavior: behaviors.POWDER,
   state: "solid",
@@ -15,7 +15,7 @@ elements.Mustard = {
   category: "food",
   state: "liquid",
   tempLow: -10,
-  stateLow: "Mustardice",
+  stateLow: "MustardIce",
   weight: 1,
   movable: true,
   temp: 20,
