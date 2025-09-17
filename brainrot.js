@@ -3,8 +3,6 @@ elements.Mustard = {
   behavior: behaviors.LIQUID,
   category: "food",
   state: "liquid",
-  tempLow: -10,
-  stateLow: "MustardIce",
   weight: 1,
   movable: true,
   temp: 20,
