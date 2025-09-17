@@ -1,5 +1,5 @@
 elements.Mustard = {
-  color: ["#FFD000"],
+  color: "#FFD000",
   behavior: behaviors.LIQUID,
   category: "food",
   state: "liquid",
@@ -13,7 +13,7 @@ elements.Mustard = {
 };
 
 elements.Brainrot = {
-  color: ["#28d232"],
+  color: "#28d232",
   behavior: behaviors.LIQUID,
   category: "special",
   state: "liquid",
@@ -25,7 +25,7 @@ elements.Brainrot = {
 };
 
 elements.IceMangos = {
-  color: ["#9fc6f2"],
+  color: "#9fc6f2",
   state: "solid",
   behavior: behaviors.POWDER,
   weight: 5,
@@ -36,7 +36,7 @@ elements.IceMangos = {
 };
 
 elements.Mangos = {
-  color: ["#eaa95f"],
+  color: "#eaa95f",
   category: "food",
   state: "solid",
   behavior: behaviors.POWDER,
@@ -54,12 +54,12 @@ elements.Mangos = {
 };
 
 elements.Boobbie = {
-  color: ["#ff008cff"],
+  color: "#ff008c",
   state: "solid",
   behavior: behaviors.POWDER,
   tempLow: -70,
   stateLow: "ice",
-  colorBG: ["#ff00c8ff"],
+  colorBG: ["#ff00c8"],
   temp: 20,
   weight: 3,
   movable: true,
