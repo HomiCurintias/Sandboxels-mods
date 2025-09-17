@@ -1,12 +1,16 @@
+if (!categories.Mod) {
+    categories.Mod = [];
+}
+
 elements.Mustard = {
   color: ["#FFD000"],
   behavior: behaviors.LIQUID,
-  category: "food",
+  category: "Mod",
   state: "liquid",
   tempLow: -10,
   tempHigh: 100,
   stateHigh: "oxygen",
-  stateLow: "Mustardice",
+  stateLow: "ice",
   weight: 1,
   movable: true,
   temp: 20,
@@ -15,7 +19,7 @@ elements.Mustard = {
 elements.Brainrot = {
   color: ["#28d232"],
   behavior: behaviors.LIQUID,
-  category: "special",
+  category: "Mod",
   state: "liquid",
   density: 1,
   movable: true,
@@ -37,7 +41,7 @@ elements.IceMangos = {
 
 elements.Mangos = {
   color: ["#eaa95f"],
-  category: "food",
+  category: "Mod",
   state: "solid",
   behavior: behaviors.POWDER,
   tempLow: -10,
@@ -49,6 +53,21 @@ elements.Mangos = {
   tempHigh: 75,
   stateHigh: "ash",
 };
+
+elements.BobbieGoddies = {
+  color: ["#ff00f2ff"],
+  category: "weapons",
+  state: "solid",
+  behavior: behaviors.POWDER,
+  colorBG: ["#ff00d4ff"],
+  temp: 20,
+  weight: 3,
+  movable: true,
+  tempHigh: 60,
+  stateHigh: "ash",
+  tempLow: -30,
+  stateLow: "ice",
+}
 
 elements.Mangos.reactions = {
     "Brainrot": { elem2: "Mustard", chance: 100 }
