@@ -1,18 +1,3 @@
-elements.Labubu = {
-  color: "#dadadaff",
-  state: "solid",
-  behavior: behaviors.POWDER,
-  category: "hidden",
-  tempLow: -70,
-  stateLow: "ice",
-  colorBG: ["#dbd9dbff"],
-  temp: 20,
-  weight: 3,
-  movable: true,
-  tempHigh: 75,
-  stateHigh: "ash",
-};
-
 elements.Mustard = {
   color: "#FFD000",
   behavior: behaviors.LIQUID,
@@ -67,6 +52,21 @@ elements.Mangos = {
   reactions: {
     "Brainrot": { elem2: "Mustard", chance: 100 }
   },
+};
+
+elements.Labubu = {
+  color: "#dadadaff",
+  state: "solid",
+  behavior: behaviors.POWDER,
+  category: "hidden",
+  tempLow: -70,
+  stateLow: "ice",
+  colorBG: ["#dbd9dbff"],
+  temp: 20,
+  weight: 3,
+  movable: true,
+  tempHigh: 75,
+  stateHigh: "ash",
 };
 
 elements.Boobbie = {
