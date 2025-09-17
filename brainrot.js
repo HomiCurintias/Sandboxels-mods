@@ -1,6 +1,3 @@
-if (!elements.Mod) {
-    elements.Mod = {};
-}
 if (!categories.Mod) {
     categories.Mod = [];
 }
