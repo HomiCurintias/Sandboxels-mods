@@ -42,7 +42,7 @@ elements.Mangos = {
   temp: 20,
   weight: 3,
   reactions: {
-    "Brainrot": { elem2: Mustard, chance: 100 },
+    "Brainrot": { elem2: "mustard", chance: 100 },
     "Brainrot": { elem2: "empty", chance: 100 }
   },
   movable: true,
