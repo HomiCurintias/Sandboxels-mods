@@ -1,10 +1,21 @@
+elements.Mustardice = {
+  color: ["#cbf3a6ff"],
+  behavior: behaviors.POWDER,
+  state: "solid",
+  weight: 3,
+  tempHigh: 10,
+  temp: -20,
+  stateHigh: "Mustard",
+  movable: true,
+}
+
 elements.Mustard = {
   color: ["#FFD000"],
   behavior: behaviors.LIQUID,
   category: "food",
   state: "liquid",
   tempLow: -10,
-  stateLow: "solid",
+  stateLow: "Mustardice",
   weight: 1,
   movable: true,
   temp: 20,
@@ -41,8 +52,9 @@ elements.Mangos = {
   colorBG: ["#F5E100"],
   temp: 20,
   weight: 3,
-  reactions: {
-    "Brainrot": { elem2: "Mustard", chance: 100 }
-  },
   movable: true,
+};
+
+elements.Mangos.reactions = {
+    "Brainrot": { elem2: "Mustard", chance: 100 }
 };
