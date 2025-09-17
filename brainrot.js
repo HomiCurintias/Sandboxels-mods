@@ -7,7 +7,7 @@ elements.Mustard = {
   tempHigh: 100,
   stateHigh: "oxygen",
   stateLow: "ice",
-  density: 1000,
+  weight: 1,
   movable: true,
   temp: 20,
 };
@@ -17,7 +17,7 @@ elements.Brainrot = {
   behavior: behaviors.LIQUID,
   category: "special",
   state: "liquid",
-  density: 1000,
+  density: 1,
   movable: true,
   temp: 20,
   tempHigh: 200,
@@ -27,9 +27,8 @@ elements.Brainrot = {
 elements.IceMangos = {
   color: ["#9fc6f2"],
   state: "solid",
-  category: "food",
   behavior: behaviors.POWDER,
-  density: 1200,
+  weight: 5,
   movable: true,
   temp: -70,
   tempHigh: 20,
@@ -45,22 +44,7 @@ elements.Mangos = {
   stateLow: "IceMangos",
   colorBG: ["#F5E100"],
   temp: 20,
-  density: 1100,
-  movable: true,
-  tempHigh: 75,
-  stateHigh: "ash",
-};
-
-elements.Boobbie = {
-  color: ["#ff008cff"],
-  state: "solid",
-  category: "special",
-  behavior: behaviors.POWDER,
-  tempLow: -70,
-  stateLow: "ice",
-  colorBG: ["#ff00c8ff"],
-  temp: 20,
-  density: 1500,
+  weight: 3,
   movable: true,
   tempHigh: 75,
   stateHigh: "ash",
@@ -68,4 +52,18 @@ elements.Boobbie = {
 
 elements.Mangos.reactions = {
     "Brainrot": { elem2: "Mustard", chance: 100 }
+};
+
+elements.Boobbie = {
+  color: ["#ff008cff"],
+  state: "solid",
+  behavior: behaviors.POWDER,
+  tempLow: -70,
+  stateLow: "ice",
+  colorBG: ["#ff00c8ff"],
+  temp: 20,
+  weight: 3,
+  movable: true,
+  tempHigh: 75,
+  stateHigh: "ash",
 };
