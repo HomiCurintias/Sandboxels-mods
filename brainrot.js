@@ -5,7 +5,7 @@ if (!categories.Mod) {
 elements.Mustard = {
   color: ["#FFD000"],
   behavior: behaviors.LIQUID,
-  category: "Mod",
+  category: "food",
   state: "liquid",
   tempLow: -10,
   tempHigh: 100,
@@ -19,7 +19,7 @@ elements.Mustard = {
 elements.Brainrot = {
   color: ["#28d232"],
   behavior: behaviors.LIQUID,
-  category: "Mod",
+  category: "special",
   state: "liquid",
   density: 1,
   movable: true,
@@ -41,7 +41,7 @@ elements.IceMangos = {
 
 elements.Mangos = {
   color: ["#eaa95f"],
-  category: "Mod",
+  category: "food",
   state: "solid",
   behavior: behaviors.POWDER,
   tempLow: -10,
