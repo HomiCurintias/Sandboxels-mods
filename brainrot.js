@@ -17,7 +17,6 @@ elements.Brainrot = {
   behavior: behaviors.LIQUID,
   category: "special",
   state: "liquid",
-  density: 1,
   movable: true,
   temp: 20,
   tempHigh: 200,
