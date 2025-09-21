@@ -116,7 +116,7 @@ elements.GrimaceShakeGas = {
 }
 
 elements.Aura = {
-  color: ["#33a9f8ff"],
+  color: ["#33a9f8"],
   state: "gas",
   behavior: behaviors.GAS,
   movable: true,
