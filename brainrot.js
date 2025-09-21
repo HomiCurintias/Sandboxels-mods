@@ -20,6 +20,9 @@ elements.Brainrot = {
   weight: 1,
   tempHigh: 200,
   stateHigh: "steam",
+  reactions: {
+    "Mangos": { elem2: "Mustard", chance: 100 }
+  },
 };
 
 elements.IceMangos = {
