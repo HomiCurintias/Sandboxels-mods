@@ -83,8 +83,8 @@ elements.GrimaceShakeSolid = {
   state: "solid",
   behavior: behaviors.POWDER,
   movable: true,
-  temp: -100,
-  tempHigh: -50,
+  temp: 0,
+  tempHigh: 20,
   stateHigh: "GrimaceShake",
 }
 
