@@ -1,12 +1,11 @@
 elements.Mustard = {
   color: ["#FFD000"],
-  colorBG: ["#FFD000"],
   behavior: behaviors.LIQUID,
   category: "food",
   state: "liquid",
   tempLow: -10,
   tempHigh: 100,
-  stateHigh: "oxygen",
+  stateHigh: "steam", // troquei "oxygen" porque não existe no vanilla
   weight: 1,
   movable: true,
   temp: 20,
@@ -14,14 +13,13 @@ elements.Mustard = {
 
 elements.Brainrot = {
   color: ["#28d232"],
-  colorBG: ["#28d232"],
   behavior: behaviors.LIQUID,
   category: "special",
   state: "liquid",
   movable: true,
   temp: 20,
   tempHigh: 200,
-  stateHigh: "oxygen",
+  stateHigh: "steam", // idem aqui
 };
 
 elements.IceMangos = {
@@ -36,13 +34,12 @@ elements.IceMangos = {
 };
 
 elements.Mangos = {
-  color: ["#eaa95f"],
+  color: ["#eaa95f", "#F5E100"], // combinei as duas cores
   category: "food",
   state: "solid",
   behavior: behaviors.POWDER,
   tempLow: -10,
   stateLow: "IceMangos",
-  colorBG: ["#F5E100"],
   temp: 20,
   weight: 3,
   movable: true,
@@ -54,12 +51,11 @@ elements.Mangos = {
 };
 
 elements.Labubu = {
-  color: ["#dadadaff"],
+  color: ["#dadada", "#dbd9db"],
   state: "solid",
   behavior: behaviors.POWDER,
   tempLow: -70,
   stateLow: "ice",
-  colorBG: ["#dbd9dbff"],
   temp: 20,
   weight: 3,
   movable: true,
@@ -68,11 +64,10 @@ elements.Labubu = {
 };
 
 elements.Boobbie = {
-  color: ["#ff008c"],
+  color: ["#ff008c", "#ff00c8"],
   state: "solid",
   behavior: behaviors.POWDER,
   tempLow: -70,
-  colorBG: ["#ff00c8"],
   temp: 20,
   weight: 3,
   movable: true,
