@@ -4,6 +4,7 @@ elements.Mustard = {
   category: "food",
   state: "liquid",
   tempLow: -10,
+  weight: 0.0001,
   tempHigh: 100,
   stateHigh: "steam",
   movable: true,
