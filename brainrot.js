@@ -6,7 +6,6 @@ elements.Mustard = {
   tempLow: -10,
   tempHigh: 100,
   stateHigh: "steam",
-  weight: 1,
   movable: true,
   temp: 20,
 };
@@ -18,6 +17,7 @@ elements.Brainrot = {
   state: "liquid",
   movable: true,
   temp: 20,
+  weight: 1,
   tempHigh: 200,
   stateHigh: "steam",
 };
