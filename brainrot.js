@@ -5,7 +5,7 @@ elements.Mustard = {
   state: "liquid",
   tempLow: -10,
   tempHigh: 100,
-  stateHigh: "oxygen",
+  stateHigh: "steam",
   weight: 1,
   movable: true,
   temp: 20,
@@ -19,7 +19,7 @@ elements.Brainrot = {
   movable: true,
   temp: 20,
   tempHigh: 200,
-  stateHigh: "steam", // idem aqui
+  stateHigh: "steam",
 };
 
 elements.IceMangos = {
@@ -34,7 +34,7 @@ elements.IceMangos = {
 };
 
 elements.Mangos = {
-  color: ["#eaa95f", "#F5E100"], // combinei as duas cores
+  color: ["#eaa95f", "#F5E100"],
   category: "food",
   state: "solid",
   behavior: behaviors.POWDER,
