@@ -77,3 +77,37 @@ elements.Boobbie = {
     "Brainrot": { elem2: "Labubu", chance: 50 }
   },
 };
+
+elements.GrimaceShakeGas = {
+  color: ["#5900ad"],
+  state: "gas",
+  behavior: behaviors.GAS,
+  movable: true,
+  reactions: {
+    "fragance": { elem2: "Brainrot", chance: 10 }
+  },
+}
+
+elements.GrimaceShakeSolid = {
+  color: ["#5900ad"],
+  state: "solid",
+  behavior: behaviors.SOLID,
+  movable: true,
+  tempHigh: -50,
+  stateHigh: "GrimaceShake",
+}
+
+elements.GrimaceShake = {
+  color: ["#5900ad"],
+  state: "liquid",
+  behavior: behaviors.LIQUID,
+  movable: true,
+  tempHigh: 100,
+  stateHigh: "GrimaceShakeGas",
+  tempLow: -100,
+  stateLow: "GrimaceShakeSolid",
+  category: "food",
+  reactions: {
+    "Brainrot": { elem2: "stench", chance: 100 }
+  },
+}
