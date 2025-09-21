@@ -13,6 +13,7 @@ elements.Mustard = {
 
 elements.Brainrot = {
   color: "#28d232",
+  colorBG: ["#28d232"],
   behavior: behaviors.LIQUID,
   category: "special",
   state: "liquid",
