@@ -78,22 +78,10 @@ elements.Boobbie = {
   },
 };
 
-elements.GrimaceShakeGas = {
-  color: ["#5900ad"],
-  state: "gas",
-  behavior: behaviors.GAS,
-  movable: true,
-  reactions: {
-    "fragance": { elem2: "Brainrot", chance: 10 }
-  },
-  tempLow: 0,
-  stateLow: "GrimaceShake",
-}
-
 elements.GrimaceShakeSolid = {
   color: ["#5900ad"],
   state: "solid",
-  behavior: behaviors.SOLID,
+  behavior: behaviors.POWDER,
   movable: true,
   tempHigh: -50,
   stateHigh: "GrimaceShake",
@@ -112,4 +100,27 @@ elements.GrimaceShake = {
   reactions: {
     "Brainrot": { elem2: "stench", chance: 100 }
   },
+}
+
+elements.GrimaceShakeGas = {
+  color: ["#5900ad"],
+  state: "gas",
+  behavior: behaviors.GAS,
+  movable: true,
+  reactions: {
+    "fragance": { elem2: "Brainrot", chance: 10 }
+  },
+  tempLow: 0,
+  stateLow: "GrimaceShake",
+}
+
+elements.Aura = {
+  color: ["#33a9f8ff"],
+  state: "gas",
+  behavior: behaviors.GAS,
+  movable: true,
+  reactions: {
+    "GrimaceShakeGas": { elem2: "Brainrot", chance: 10 }
+  },
+  state: "special",
 }
