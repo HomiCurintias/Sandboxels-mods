@@ -17,7 +17,7 @@ elements.Brainrot = {
   state: "liquid",
   movable: true,
   temp: 20,
-  weight: 1,
+  weight: 10,
   tempHigh: 200,
   stateHigh: "steam",
   reactions: {
