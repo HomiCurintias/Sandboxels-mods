@@ -86,6 +86,8 @@ elements.GrimaceShakeGas = {
   reactions: {
     "fragance": { elem2: "Brainrot", chance: 10 }
   },
+  tempLow: 0,
+  stateLow: "GrimaceShake",
 }
 
 elements.GrimaceShakeSolid = {
