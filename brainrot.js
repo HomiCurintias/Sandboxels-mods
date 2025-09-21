@@ -5,7 +5,7 @@ elements.Mustard = {
   state: "liquid",
   tempLow: -10,
   tempHigh: 100,
-  stateHigh: "steam", // troquei "oxygen" porque não existe no vanilla
+  stateHigh: "oxygen",
   weight: 1,
   movable: true,
   temp: 20,
