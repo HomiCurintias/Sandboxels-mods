@@ -1,5 +1,6 @@
 elements.Mustard = {
   color: "#FFD000",
+  colorBG: ["#FFD000"],
   behavior: behaviors.LIQUID,
   category: "food",
   state: "liquid",
