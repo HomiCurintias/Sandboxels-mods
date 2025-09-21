@@ -122,5 +122,5 @@ elements.Aura = {
   reactions: {
     "GrimaceShakeGas": { elem2: "Brainrot", chance: 10 }
   },
-  state: "special",
+  category: "special",
 }
